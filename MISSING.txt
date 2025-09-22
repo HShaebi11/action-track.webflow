@@ -1,0 +1,16 @@
+The following files failed to download during site export. Please check them in the designer assets view (images) or dashboard (fonts).
+
+fonts/PPEditorialNew-BoldItalic.ttf
+fonts/PPEditorialNew-Heavy.ttf
+fonts/PPEditorialNew-HeavyItalic.ttf
+fonts/PPEditorialNew-Italic.ttf
+fonts/PPEditorialNew-Regular.ttf
+fonts/PPEditorialNew-Thin.ttf
+fonts/PPEditorialNew-ThinItalic.ttf
+fonts/PPNeueMontrealMono-Bold.ttf
+fonts/PPNeueMontrealMono-BoldItalic.ttf
+fonts/PPNeueMontrealMono-Book.ttf
+fonts/PPNeueMontrealMono-Light.ttf
+fonts/PPNeueMontrealMono-Medium.ttf
+fonts/PPNeueMontrealMono-Regular.ttf
+fonts/PPNeueMontrealMono-Thin.ttf

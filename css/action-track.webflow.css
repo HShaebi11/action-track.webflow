@@ -1,0 +1,621 @@
+@font-face {
+  font-family: Ppneuemontrealmono;
+  src: url('../fonts/PPNeueMontrealMono-Medium.ttf') format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ppneuemontrealmono;
+  src: url('../fonts/PPNeueMontrealMono-RegularItalic.ttf') format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ppneuemontrealmono;
+  src: url('../fonts/PPNeueMontrealMono-BoldItalic.ttf') format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ppeditorialnew;
+  src: url('../fonts/PPEditorialNew-Italic.ttf') format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ppneuemontrealmono;
+  src: url('../fonts/PPNeueMontrealMono-ThinItalic.ttf') format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ppneuemontrealmono;
+  src: url('../fonts/PPNeueMontrealMono-Thin.ttf') format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ppneuemontrealmono;
+  src: url('../fonts/PPNeueMontrealMono-Light.ttf') format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ppneuemontrealmono Book;
+  src: url('../fonts/PPNeueMontrealMono-Book.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ppneuemontrealmono;
+  src: url('../fonts/PPNeueMontrealMono-Bold.ttf') format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ppeditorialnew;
+  src: url('../fonts/PPEditorialNew-Ultralight.ttf') format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ppneuemontrealmono;
+  src: url('../fonts/PPNeueMontrealMono-Regular.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ppeditorialnew;
+  src: url('../fonts/PPEditorialNew-Thin.ttf') format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ppeditorialnew;
+  src: url('../fonts/PPEditorialNew-ThinItalic.ttf') format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ppeditorialnew;
+  src: url('../fonts/PPEditorialNew-UltralightItalic.ttf') format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ppeditorialnew;
+  src: url('../fonts/PPEditorialNew-HeavyItalic.ttf') format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ppeditorialnew;
+  src: url('../fonts/PPEditorialNew-Regular.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ppeditorialnew;
+  src: url('../fonts/PPEditorialNew-Bold.ttf') format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ppeditorialnew;
+  src: url('../fonts/PPEditorialNew-BoldItalic.ttf') format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ppeditorialnew;
+  src: url('../fonts/PPEditorialNew-Heavy.ttf') format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+.fullscreen-wrapper {
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  flex-flow: column;
+  justify-content: space-around;
+  width: 100vw;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+}
+
+.header-wrapper {
+  grid-column-gap: 75px;
+  grid-row-gap: 75px;
+  border-bottom: 1px solid #000;
+  flex-flow: column;
+  padding-bottom: 15px;
+  display: flex;
+}
+
+.wrapper {
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  justify-content: space-between;
+  align-items: stretch;
+  display: flex;
+}
+
+.wrapper.heading {
+  align-items: flex-end;
+  height: 135px;
+}
+
+.wrapper.v {
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  flex-flow: column;
+}
+
+.wrapper.remaining {
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+}
+
+.wrapper.header {
+  border: 1px #000;
+  border-top-style: solid;
+  padding-top: 5px;
+}
+
+.wrapper.bottom {
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+}
+
+.contexual-text {
+  text-transform: uppercase;
+  flex: none;
+  font-family: Ppneuemontrealmono, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 100%;
+  display: flex;
+}
+
+.contexual-text.right-aligned {
+  text-align: right;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.contexual-text.input-text {
+  width: 85px;
+}
+
+.tag {
+  border: 1px solid #000;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  padding: 7px 15px;
+  display: flex;
+}
+
+.heading01 {
+  letter-spacing: -.07em;
+  text-transform: uppercase;
+  overflow-wrap: break-word;
+  flex: 0 auto;
+  align-self: flex-end;
+  align-items: flex-end;
+  padding-left: 5px;
+  padding-right: 15px;
+  font-family: Ppeditorialnew, Arial, sans-serif;
+  font-size: 172.47px;
+  font-weight: 100;
+  line-height: .58em;
+  display: flex;
+}
+
+.inputs-wrapper {
+  flex: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.input {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 50px;
+  flex-flow: row;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 15px;
+  font-family: Ppneuemontrealmono, Arial, sans-serif;
+  line-height: 100%;
+  display: flex;
+}
+
+.input-wrapper {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.input-2 {
+  flex: 1;
+}
+
+.input-function {
+  text-transform: uppercase;
+  border: 0 solid #000;
+  border-radius: 0;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  display: block;
+}
+
+.input-function.text {
+  flex: none;
+  align-self: center;
+  width: 200px;
+  height: 14px;
+  line-height: 0%;
+}
+
+.button {
+  text-transform: uppercase;
+  background-color: #000;
+  border-radius: 40px;
+  padding: 5px 15px;
+  font-family: Ppneuemontrealmono, Arial, sans-serif;
+  font-weight: 500;
+}
+
+.button.in-active {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+  line-height: 100%;
+}
+
+.button.in-active:active, .button.in-active:focus {
+  color: #fff;
+  background-color: #000;
+}
+
+.div-block {
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  display: flex;
+}
+
+.text-block {
+  color: #fff;
+}
+
+.inputs {
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  flex: 0 auto;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  align-content: stretch;
+  align-self: center;
+  width: 100%;
+  display: grid;
+}
+
+.option-wrapper {
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  flex: none;
+  display: flex;
+}
+
+.option-wrapper.fill {
+  flex: 1;
+}
+
+.fs-table_instance {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: block;
+}
+
+.fs-table_header {
+  text-align: left;
+  text-transform: uppercase;
+  background-color: #fff;
+  border: 0 solid #000;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 8px;
+  font-family: Ppneuemontrealmono, Arial, sans-serif;
+}
+
+.fs-table_row {
+  text-align: left;
+  border: 0 solid #000;
+}
+
+.fs-table_head {
+  background-color: #f3f3f3;
+  border: 0 solid #000;
+}
+
+.fs-table_cell {
+  text-align: left;
+  text-transform: uppercase;
+  border: 0 solid #000;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 8px;
+  font-family: Ppneuemontrealmono, Arial, sans-serif;
+}
+
+.fs-table_body {
+  border: 0 solid #000;
+}
+
+.fs-table_table {
+  text-align: left;
+  border-collapse: collapse;
+  border: 0 solid #000;
+  width: 100%;
+}
+
+.total-wrapper {
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: auto;
+  display: flex;
+}
+
+@media screen and (max-width: 479px) {
+  .fullscreen-wrapper {
+    padding: 10px;
+  }
+
+  .wrapper.heading {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    text-align: center;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  .wrapper.header {
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+  }
+
+  .contexual-text.right-aligned {
+    text-align: left;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .heading01 {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+  }
+
+  .inputs {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+  }
+}
+
+#w-node-_2c030479-4c42-674d-1d3b-edbb7c837827-1d70d409 {
+  place-self: center stretch;
+}
+
+#w-node-_5654f5eb-3d27-1cf0-d134-0957deb9abfd-1d70d409, #w-node-cfc0dd06-f4f6-82f6-e1b2-853a99550a7e-1d70d409 {
+  justify-self: stretch;
+}
+
+#w-node-_3ed07457-ae7d-564b-28c2-613b2484b53b-1d70d409 {
+  justify-self: end;
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-e1a17743-3cff-4d3c-0f4e-b92b1eef7110-1d70d409 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  #w-node-ce142790-9100-a60d-10f3-b92ec46c9bf7-1d70d409, #w-node-ed8e2899-ca8e-afb7-6846-cd77a6bbd0d4-1d70d409 {
+    grid-area: span 1 / span 2 / span 1 / span 2;
+  }
+}
+
+
+@font-face {
+  font-family: 'Ppneuemontrealmono';
+  src: url('../fonts/PPNeueMontrealMono-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ppneuemontrealmono';
+  src: url('../fonts/PPNeueMontrealMono-RegularItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ppneuemontrealmono';
+  src: url('../fonts/PPNeueMontrealMono-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ppeditorialnew';
+  src: url('../fonts/PPEditorialNew-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ppneuemontrealmono';
+  src: url('../fonts/PPNeueMontrealMono-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ppneuemontrealmono';
+  src: url('../fonts/PPNeueMontrealMono-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ppneuemontrealmono';
+  src: url('../fonts/PPNeueMontrealMono-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ppneuemontrealmono Book';
+  src: url('../fonts/PPNeueMontrealMono-Book.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ppneuemontrealmono';
+  src: url('../fonts/PPNeueMontrealMono-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ppeditorialnew';
+  src: url('../fonts/PPEditorialNew-Ultralight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ppneuemontrealmono';
+  src: url('../fonts/PPNeueMontrealMono-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ppeditorialnew';
+  src: url('../fonts/PPEditorialNew-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ppeditorialnew';
+  src: url('../fonts/PPEditorialNew-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ppeditorialnew';
+  src: url('../fonts/PPEditorialNew-UltralightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ppeditorialnew';
+  src: url('../fonts/PPEditorialNew-HeavyItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ppeditorialnew';
+  src: url('../fonts/PPEditorialNew-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ppeditorialnew';
+  src: url('../fonts/PPEditorialNew-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ppeditorialnew';
+  src: url('../fonts/PPEditorialNew-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ppeditorialnew';
+  src: url('../fonts/PPEditorialNew-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
