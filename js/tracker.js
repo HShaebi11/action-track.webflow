@@ -209,10 +209,20 @@
 
 	function wireButtons() {
 		if (btnConfirm) btnConfirm.addEventListener("click", addSubscriptionFromInputs);
-		if (btnAddSubscription) btnAddSubscription.addEventListener("click", () => {
-			// Scroll to inputs or focus name field
-			if (inputName) inputName.focus();
-		});
+		if (btnAddSubscription) btnAddSubscription.addEventListener("click", addSubscriptionFromInputs);
+		const submitOnEnter = (el) => {
+			if (!el) return;
+			el.addEventListener("keydown", (e) => {
+				if (e.key === "Enter") {
+					e.preventDefault();
+					addSubscriptionFromInputs();
+				}
+			});
+		};
+		submitOnEnter(inputName);
+		submitOnEnter(inputDay);
+		submitOnEnter(inputCost);
+		submitOnEnter(inputNote);
 	}
 
 	function wireIncome() {
@@ -235,8 +245,10 @@
 
 	if (document.readyState === "loading") {
 		document.addEventListener("DOMContentLoaded", init);
+		window.addEventListener("load", () => { renderTable(); recompute(); });
 	} else {
 		init();
+		window.addEventListener("load", () => { renderTable(); recompute(); });
 	}
 })();
 
