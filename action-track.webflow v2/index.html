@@ -1,0 +1,162 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Wed Sep 24 2025 00:08:07 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="68d1527c01b8214d1d70d409" data-wf-site="68d1527b01b8214d1d70d397">
+<head>
+  <meta charset="utf-8">
+  <title>action:Track</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/action-track.webflow.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+</head>
+<body>
+  <div class="fullscreen-wrapper">
+    <div class="header-wrapper">
+      <div class="wrapper header"><img src="images/icon.svg" loading="lazy" width="43" alt="">
+        <div id="w-node-e1a17743-3cff-4d3c-0f4e-b92b1eef7110-1d70d409" class="tag">
+          <div class="contexual-text">2025</div>
+        </div>
+        <div id="w-node-ce142790-9100-a60d-10f3-b92ec46c9bf7-1d70d409" class="contexual-text">Subscriptions<br>Tracker</div>
+        <div id="w-node-ed8e2899-ca8e-afb7-6846-cd77a6bbd0d4-1d70d409" class="contexual-text right-aligned">by<br>hamza shaebi</div>
+      </div>
+      <div class="wrapper heading">
+        <div class="heading01">action:</div>
+        <div class="heading01">track</div>
+      </div>
+    </div>
+    <div class="control">
+      <div class="inputs-wrapper">
+        <div class="input-wrapper">
+          <div class="contexual-text">monthly income:</div>
+        </div><input data-wf--input--variant="amount" id="monthly-input" type="number" placeholder="" min="" max="" step="" class="input w-variant-30496d9c-6aab-ed3c-e1e7-7a6c8dccb206" value="00.00">
+      </div>
+      <div id="add" class="button-01 w-node-f934eea7-5a62-51db-fc2f-02d7843b6c18-1d70d409">
+        <div id="add-text" class="contexual-text button-text">Add Subscription</div>
+      </div>
+      <div id="input" class="inputs w-node-_5b04d197-c9c7-6116-668c-15723e5dfe25-1d70d409">
+        <div class="two-inputs-wrapper">
+          <div class="input-wrapper two">
+            <div class="contexual-text label">name:</div><input data-wf--input--variant="base" id="name" type="input" placeholder="" min="" max="" step="" class="input" value="">
+          </div>
+          <div class="input-wrapper two">
+            <div class="contexual-text label">Amount:</div><input data-wf--input--variant="amount" id="amount" type="" placeholder="text" min="" max="10" step="5" class="input w-variant-30496d9c-6aab-ed3c-e1e7-7a6c8dccb206" value="">
+          </div>
+        </div>
+        <div class="input-wrapper two">
+          <div class="contexual-text label">notes:</div><input data-wf--input--variant="base" id="note" type="input" placeholder="note" min="" max="" step="" class="input" value="">
+        </div>
+        <div class="line"></div>
+        <div class="input-wrapper two">
+          <div class="contexual-text label">Date:</div><input data-wf--input--variant="base" id="date" type="date" placeholder="" min="" max="" step="" class="input" value="00.00">
+        </div>
+        <div id="frequency-options" class="input-wrapper two">
+          <div class="contexual-text label">Frequency:</div>
+          <div class="input-wrapper v2">
+            <div class="option">
+              <div class="contexual-text button-option">one-time</div>
+            </div>
+            <div class="option">
+              <div class="contexual-text button-option">Weekly</div>
+            </div>
+            <div class="option">
+              <div class="contexual-text button-option">monthly</div>
+            </div>
+            <div class="option">
+              <div class="contexual-text button-option">yearly</div>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div id="priority-options" class="input-wrapper two">
+          <div class="contexual-text label">Priority:</div>
+          <div class="input-wrapper v2">
+            <div class="option">
+              <div class="contexual-text button-option">High</div>
+            </div>
+            <div class="option">
+              <div class="contexual-text button-option">Medium</div>
+            </div>
+            <div class="option">
+              <div class="contexual-text button-option">Low</div>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="button-01">
+          <div class="contexual-text button-text">add</div>
+          <div id="name-active" class="contexual-text button-text name">[name]</div>
+        </div>
+      </div>
+    </div>
+    <div id="table" fs-table-instance="table" fs-table-element="table" class="table_instance">
+      <table class="table_table">
+        <thead class="table_head">
+          <tr class="table_row">
+            <th class="table_header">NAME:</th>
+            <th class="table_header">cost:</th>
+            <th class="table_header">FREQUENCY:</th>
+            <th class="table_header">NOTE</th>
+            <th class="table_header">PRIORITY</th>
+            <th class="table_header">date</th>
+            <th class="table_header">remove</th>
+          </tr>
+        </thead>
+        <tbody class="table_body">
+          <tr class="table_row">
+            <td class="table_cell">Cell</td>
+            <td class="table_cell">Cell</td>
+            <td class="table_cell">Cell</td>
+            <td class="table_cell">Cell</td>
+            <td class="table_cell">Cell</td>
+            <td class="table_cell">Cell</td>
+            <td class="table_cell">X</td>
+          </tr>
+          <tr class="table_row">
+            <td class="table_cell">Cell</td>
+            <td class="table_cell">Cell</td>
+            <td class="table_cell">Cell</td>
+            <td class="table_cell">Cell</td>
+            <td class="table_cell">Cell</td>
+            <td class="table_cell">Cell</td>
+            <td class="table_cell">X</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="total-wrapper">
+      <div class="wrapper heading bottom">
+        <div class="heading01">Total:</div>
+        <div id="total" class="heading01">£107.95</div>
+      </div>
+      <div class="wrapper bottom">
+        <div class="contexual-text">Remaining:</div>
+        <div class="wrapper remaining">
+          <div id="remaining-percent" class="contexual-text right-aligned">%60.55</div>
+          <div id="remaining-number" class="contexual-text">£107.95</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=68d1527b01b8214d1d70d397" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <script>
+document.addEventListener("DOMContentLoaded", function() {
+  const addBtn = document.getElementById("Add");
+  const inputs = document.getElementById("input");
+  if (addBtn && inputs) {
+    addBtn.addEventListener("click", function() {
+      // Toggle between none and block
+      if (inputs.style.display === "none" || inputs.style.display === "") {
+        inputs.style.display = "grid";
+      } else {
+        inputs.style.display = "none";
+      }
+    });
+  }
+});
+</script>
+</body>
+</html>
